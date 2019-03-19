@@ -1,7 +1,15 @@
-function takeANumber(line, name){
+//one argument, return changed to reflect number 
+function takeANumber(line){
+  
+  line.push(); //n++
+  return `Welcome. You are ticket number ${}.`;
+}
+
+/* function takeANumber(line, name){
   line.push(name);
   return `Welcome, ${name}. You are number ${line.length} in line.`;
-}
+} */
+
 
 function nowServing(line) {
   if (!line.length) {
