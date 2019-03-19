@@ -1,9 +1,9 @@
 //one argument, return changed to reflect number 
+let customerNumber = 0;
 
 function takeANumber(line){
-  let n = 0;
-  line.push(++n);
-  return `Welcome. You are ticket number ${n}.`;
+  line.push(++customerNumber);
+  return `Welcome. You are ticket number ${customerNumber}.`;
 }
 
 /* function takeANumber(line, name){
